@@ -6,6 +6,7 @@ This project predicts Estrogen Receptor (ER) status in breast cancer patients us
 ## Dataset
 
 - **Source**: METABRIC (via Kaggle)
+- https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric
 - ~1,874 samples
 - 600+ features: clinical data and gene mutation flags
 - Target: `er_status_binary` (1 = ER+, 0 = ER−)
@@ -43,15 +44,12 @@ Consistent with clinical research findings.
 
 ## Files
 
-- `CISC_5800_Final_Project.py` – full code and analysis
-- `ROC Curve.png` – comparison of model performance
+- `CISC_5800_Final_Project_Report_SameeraAluri.pdf` - final report in IEEE format
+- `CISC_5800_Final_Project_Sameera_Aluri.ipynb` - full code and analysis (Jupyter notebook)
+- `CISC_5800_Final_Project_Sameera_Aluri.pdf` - full code and analysis (PDF)
+- `CISC_5800_Final_Project_Sameera_Aluri.py` - full code and analysis (Executable script)
+- `METABRIC_RNA_Mutation.csv` - primary dataset
 
-## Future Work
-
-- Ensemble models
-- Use gene expression levels
-- Validate on external datasets (e.g. TCGA)
-- Deploy as a clinical decision support tool
 
 ---
 
